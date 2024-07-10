@@ -28,6 +28,13 @@ chmod +x linux.x86_64
 2. Run the RPi-Python-HES.py from the RPi.
 3. Run the .exe file
 
+## Scripts
+1. [RPi-Python-HES.py](./RPi-Python-HES.py) - RPi Hall effect sensors script
+2. [CameraFollower.cs](./Unity%20Scripts/CameraFollower.cs) - Unity C# Script used for making the Camera follow the Player/Object
+3. [DisplayIPAddress.cs](./Unity%20Scripts/DisplayIPAddress.cs) - Unity C# Script used to display (TextMeshPro) the Public and Local IPv4 Adress of the Host running the Unity game
+4. [SocketListener.cs](./Unity%20Scripts/SocketListener.cs) - Unity C# Script used to receive the data from the RPi to translate movements of the player via sockets
+5. [UnityMainThreadDispatcher.cs](./Unity%20Scripts/UnityMainThreadDispatcher.cs) - Unity C# Script to allow actions to be executed on the Unity main thread, even if they were initiated from a different thread.
+
 ## Credits
 The DLSU IBEHT SIGLA Prototyping Team
 
