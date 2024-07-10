@@ -21,7 +21,8 @@ chmod +x linux.x86_64
 ```
 ### WebGL
 - Use Apache or NGINX to run the WebGL files to run locally
-- itch.io and related sites can be used however I could not figure out how to connect the python script to the WebGL game as web sockets are not supported by WebGL
+- itch.io and related sites can be also be used
+- A known issue **HOWEVER** is that WebSocket is not supported in WebGL
 
 ### Win32/64
 1. Copy the 3_win32 or 4_win64 folder to the windows device
