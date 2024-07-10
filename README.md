@@ -1,9 +1,9 @@
 # RPi to Unity
-A Raspberry Pi 4 Model B is configured to use two Hall effect sensors to send input data to a Unity game. The Hall effect sensors are connected via the RPi's GPIO and a Python script is used to detect magnetic fields. In the same Python script the use of web sockets was employed in order for the RPi to connect to the Unity game.
+A Raspberry Pi 4 Model B is configured to use two Hall effect sensors (HES) to send input data to a Unity game. The HES are connected via the RPi's GPIO and a Python script is used to detect magnetic fields. In the same Python script the use of web sockets was employed in order for the RPi to connect to the Unity game. Two HES were used to provide forward and backwards movement for the player in the Unity game.
 ![Sample](./Images/Sample.png)
 
 ## Installation
-Configure the Hall effect sensors on the RPi's GPIO ports and in the RPi-Python-HES.py
+Configure the two HES on the RPi's GPIO ports and in the RPi-Python-HES.py. The **left** HES, used for forward movement, is connected to RPi GPIO 17, while the **right** HES, used for backward movement, is connected to RPi GPIO 27. GPIO 3v3 and ground were used for providing power to the circuit.
 ![Circuit](./Images/circuit.jpg)
 
 ### APK
