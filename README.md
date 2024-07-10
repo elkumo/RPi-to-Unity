@@ -4,7 +4,7 @@ A Raspberry Pi 4 Model B is configured to use two Hall effect sensors to send in
 
 ## Installation
 Configure the Hall effect sensors on the RPi's GPIO ports and in the RPi-Python-HES.py
-![Circuit](./images/circuit.jpg)
+![Circuit](./Images/circuit.jpg)
 
 ### APK
 1. Install the .APK file to the android device
